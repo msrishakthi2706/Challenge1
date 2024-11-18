@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  padding: 2rem 0 0 1.5rem;
+  margin-left: 60px;
+}
+.model img {
+  position: absolute;
+  margin-left: 800px;
+  height: 550px;
+  width: 500px;
+}
+main h1 span {
+  position: absolute;
+  color: hsl(0, 37%, 70%);
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 2px;
+}
+main h1 {
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.description {
+  font-style: "Josefin Sans" sans-serif;
+  text-align: left;
+  color: rgb(170, 68, 68);
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.email {
+  margin-left: 90px;
+  margin-top: 15px;
+  border-radius: 40px;
+  border-style: ridge;
+  border-color: rgb(223, 135, 135);
+  padding: 15px;
+  width: 350px;
+}
+.error {
+  text-align: left;
+  font-size: 12px;
+  color: red;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+button {
+  position: absolute;
+  border-radius: 40%;
+  padding: 11.5px;
+  width: 65px;
+  margin-left: -4.8%;
+  margin-top: 16px;
+  background-color: rgb(231, 149, 149);
+  border: none;
+}
+body {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  background: url("images/bg-pattern-desktop.svg");
+  background-size: 50%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: -800px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
